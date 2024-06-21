@@ -6,6 +6,8 @@ const pinoLogger = require('./logger');
 
 const connectToDatabase = require('./models/db');
 const {loadData} = require("./util/import-mongo/index");
+// Task 1: Import the giftRoutes and store in a constant called giftRoutes
+const giftRoutes = require('./routes/giftRoutes');
 
 
 const app = express();
@@ -23,7 +25,8 @@ app.use(express.json());
 
 // Route files
 // Gift API Task 1: import the giftRoutes and store in a constant called giftroutes
-//{{insert code here}}
+// Task 2: Add the giftRoutes to the server using the app.use() method
+app.use('/api/gifts', giftRoutes);
 
 // Search API Task 1: import the searchRoutes and store in a constant called searchRoutes
 //{{insert code here}}
