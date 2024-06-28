@@ -7,7 +7,7 @@ const MongoClient = require('mongodb').MongoClient;
 let url = `mongodb://root:MTQ3NzYtbm5hbWRp@nnamdivictor-8081`;
 
 let dbInstance = null;
-const dbName = "giftdb";
+const dbName = "giftsdb";
 
 async function connectToDatabase() {
     if (dbInstance){
