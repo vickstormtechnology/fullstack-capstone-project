@@ -4,6 +4,7 @@ import MainPage from './components/MainPage/MainPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DetailsPage from './components/DetailsPage/DetailsPage';
 import SearchPage from './components/SearchPage/SearchPage';
+import Profile from './components/Profile/Profile';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/app" element={<MainPage />} />
           <Route path="/app/search" element={<SearchPage/>} />
           <Route path="/app/product/:productId" element={<DetailsPage/>} />
+          <Route path="/app/profile" element={<Profile/>} />
         </Routes>
         </>
   );
