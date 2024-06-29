@@ -158,8 +158,8 @@ body,
 
 /* Style for login button */
 .nav-link.login-btn {
-  background-color: #28a745; /* A green color for login */
-  color: white;
+  /* background-color: #28a745;*/
+  /* color: white; */
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   transition: background-color 0.2s ease-in-out;
