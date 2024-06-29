@@ -4,10 +4,10 @@ const MongoClient = require('mongodb').MongoClient;
 
 // MongoDB connection URL with authentication options
 // let url = `${process.env.MONGO_URL}`;
-let url = `mongodb://root:MTQ3NzYtbm5hbWRp@nnamdivictor-8081`;
+let url = `mongodb://root:MTY3NDItbm5hbWRp@localhost:27017`;
 
 let dbInstance = null;
-const dbName = "giftsdb";
+const dbName = "giftdb";
 
 async function connectToDatabase() {
     if (dbInstance){

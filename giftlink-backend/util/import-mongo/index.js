@@ -14,7 +14,7 @@ const data = JSON.parse(fs.readFileSync(filename, 'utf8')).docs;
 
 // connect to database and insert data into the collection
 async function loadData() {
-    const client = new MongoClient('mongodb://root:NDAxNS1ubmFtZGl2@localhost:27017');
+    const client = new MongoClient('mongodb://root:MTY3NDItbm5hbWRp@localhost:27017');
     
 
     try {
