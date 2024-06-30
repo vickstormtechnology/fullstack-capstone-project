@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 // MongoDB connection URL with authentication options
 // let url = `${process.env.MONGO_URL}`;
-let url = `mongodb://root:MTY3NDItbm5hbWRp@localhost:27017`;
+let url = `mongodb://root:Mjc3Mzktbm5hbWRp@localhost:27017`;
 
 let dbInstance = null;
 const dbName = "giftdb";
